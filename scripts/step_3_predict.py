@@ -16,5 +16,5 @@ customer=[[
      
 ]]
 customer_scaled=scaler.transform(customer)
-prediction=model.predict(customer)
+prediction=model.predict(customer_scaled)
 print(prediction)
