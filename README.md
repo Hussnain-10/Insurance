@@ -1,8 +1,8 @@
-# Insurance charges Prediction
+# Insurance charges Prediction 🏥
 Predicting the insurance charges using the machine algorithum 
-## Project Overview
+## Project Overview 📄
 The project is the analyze the insurance feature and build a model that can predict the charges of a insurance
-## Dataset Features
+## Dataset Features 📑
 The dataset contain the following features:
 - age
 - sex
@@ -12,14 +12,14 @@ The dataset contain the following features:
 - region
  Target Variable :
 - charges
-## Data Preprocessing
+## Data Preprocessing 🔎
 The following preprocessing steps were performed:
 - Loaded the dataset
 - checked missing values
 - Encode the datasets 
 - see the data correlation 
 - prepared data for machine learning models
-## Machine learning Models
+## Machine learning Models 🤖
 The following regression models were trained and compared
 1. Linear Regression 
 2. K-Nearest Neighbors Regreesor
@@ -41,10 +41,10 @@ Example Comparison:
 | Decision Tree        | 0.695 | 3446.48  | 43898083.41  |
 | Random Forest        | 0.824 | 2913.04  | 25312027.07  |
 
-## Best Model 
+## Best Model  ✔️
 Random Forest Regressor was selected as the final model because it provide the best performance on the datasets
 
-## How to Run
+## How to Run 🚀
 
 1. Clone the repository
    ```bash
