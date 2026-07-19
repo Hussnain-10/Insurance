@@ -25,12 +25,15 @@ The following regression models were trained and compared
 2. K-Nearest Neighbors Regreesor
 3. Decision Tree Regressor 
 4. Random Forest Regressor
-## Model Evaluation 
+## Model Evaluation
+
 Model are evaluated using:
-- R2 score 
+- R2 score
 - MSE (Mean Squared Error)
 - MAE (Mean Absolute Error)
-Example Comparison :
+
+Example Comparison:
+
 | Model               | R2    | MAE      | MSE          |
 |----------------------|-------|----------|--------------|
 | Linear Regression    | 0.745 | 4312.49  | 36776416.91  |
