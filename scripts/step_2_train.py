@@ -17,8 +17,8 @@ y_pred_rf=RF.predict(X_test)
 print("MAE: ",mean_absolute_error(y_test,y_pred_rf))
 print("MSE: ",mean_squared_error(y_test,y_pred_rf))
 print("R2: ",r2_score(y_test,y_pred_rf))
-with open('Random_forest_i.pkl','wb') as file:
-    pickle.dump(RF,file)
-with open ('scaler_i.pkl','wb') as file:
-    pickle.dump(scaling,file)
+with open('../model/Random_forest_i.pkl', 'wb') as file:
+    pickle.dump(RF, file)
+with open('../model/scaler_i.pkl', 'wb') as file:
+    pickle.dump(scaling, file)
 print('Done')
