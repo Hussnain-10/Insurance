@@ -44,15 +44,15 @@ Random Forest Regressor was selected as the final model because it provide the b
 Follow these steps to set up and run the project locally:
 
 ```bash
-1. **Clone the repository and navigate into it**
+1.**Clone the repository and navigate into it:**
 git clone [https://github.com/Hussnain-10/Insurance.git](https://github.com/Hussnain-10/Insurance.git)
 cd Insurance
 
- 2. Install the dependencies
+2. Install the dependencies
 pip install -r requirements.txt
 
- 3. Train the model
+3. Train the model
 python scripts/step_2_train.py
 
- 4. Run a prediction on a new customer
+4. Run a prediction on a new customer
 python scripts/step_3_predict.py
