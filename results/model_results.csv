@@ -1,0 +1,5 @@
+Model,R2,MAE,MSE
+Linear Regression,0.784,4181.19,33596915.85
+KNeighborsRegressor,0.786,3599.65,33220062.50
+Decision Tree,0.704,3231.72,45893710.29
+Random Forest,0.865,2544.56,21009891.83
