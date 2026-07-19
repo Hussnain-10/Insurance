@@ -43,10 +43,10 @@ Random Forest Regressor was selected as the final model because it provide the b
 ## How to Run
 Follow these steps to set up and run the project locally:
 
-```bash
-1.**Clone the repository and navigate into it:**
-git clone [https://github.com/Hussnain-10/Insurance.git](https://github.com/Hussnain-10/Insurance.git)
-cd Insurance
+1. **Clone the repository and navigate into it:**
+   ```bash
+   git clone [https://github.com/Hussnain-10/Insurance.git](https://github.com/Hussnain-10/Insurance.git)
+   cd Insurance
 
 2. Install the dependencies
 pip install -r requirements.txt
