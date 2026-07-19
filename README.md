@@ -43,10 +43,10 @@ Random Forest Regressor was selected as the final model because it provide the b
 ## How to Run
 
 1. Clone the repository
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Hussnain-10/Insurance.git
    cd Insurance
-   \`\`\`
+   ```
 
 2. Install the dependencies
    \`\`\`bash
