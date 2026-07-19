@@ -49,17 +49,17 @@ Random Forest Regressor was selected as the final model because it provide the b
    ```
 
 2. Install the dependencies
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 3. Train the model
-   \`\`\`bash
+   ```bash
    cd scripts
    python step_2_train.py
-   \`\`\`
+   ```
 
 4. Run a prediction on a new customer
-   \`\`\`bash
+   ```bash
    python step_3_predict.py
-   \`\`\`
+   ```
