@@ -51,6 +51,7 @@ Follow these steps to set up and run the project locally:
 2.Install the dependencies
    pip install -r requirements.txt
 
+
 3. Train the model
 python scripts/step_2_train.py
 
