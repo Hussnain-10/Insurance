@@ -41,13 +41,15 @@ Random Forest                 0.8242532826245101     |2913.036160083286         
 Random Forest Regressor was selected as the final model because it provide the best performance on the datasets
 
 ## How to Run
-1. Clone the repository
-   git clone https://github.com/Hussnain-10/Insurance.git
-   cd-Insurance
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository and navigate into it:**
+   ```bash
+   git clone [https://github.com/Hussnain-10/Insurance.git](https://github.com/Hussnain-10/Insurance.git)
+   cd Insurance
 2. Install the dependencies
-pip install -r requirement.txt
+   pip install -r requirements.txt
 3. Train the model
-cd scripts
-phython step_2_train.py
+python scripts/step_2_train.py
 4. Run a prediction on a new customer 
-phython step_3_predict.py
+   python scripts/step_3_predict.py
