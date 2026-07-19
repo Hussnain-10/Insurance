@@ -33,14 +33,12 @@ Model are evaluated using:
 - MAE (Mean Absolute Error)
 
 Example Comparison:
-
-| Model               | R2    | MAE      | MSE          |
-|----------------------|-------|----------|--------------|
-| Linear Regression    | 0.745 | 4312.49  | 36776416.91  |
-| KNeighborsRegressor  | 0.632 | 4470.15  | 53029344.31  |
-| Decision Tree        | 0.695 | 3446.48  | 43898083.41  |
-| Random Forest        | 0.824 | 2913.04  | 25312027.07  |
-
+| Model                | R2    | MAE     | MSE          |
+|-----------------------|-------|---------|--------------|
+| Linear Regression     | 0.784 | 4181.19 | 33596915.85  |
+| KNeighborsRegressor   | 0.786 | 3599.65 | 33220062.50  |
+| Decision Tree         | 0.704 | 3231.72 | 45893710.29  |
+| Random Forest         | 0.865 | 2544.56 | 21009891.83  |
 ## Best Model  ✔️
 Random Forest Regressor was selected as the final model because it provide the best performance on the datasets
 
