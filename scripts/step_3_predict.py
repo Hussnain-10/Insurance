@@ -1,8 +1,8 @@
 import pickle
-with open('Random_forest_i.pkl','rb') as file:
-    model=pickle.load(file)
-with open('scaler_i.pkl.','rb') as file:
-    scaler=pickle.load(file)
+with open('../model/Random_forest_i.pkl', 'rb') as file:
+    model = pickle.load(file)
+with open('../model/scaler_i.pkl', 'rb') as file:
+    scaler = pickle.load(file)
 
 customer=[[
     	19,                             # age
