@@ -45,9 +45,9 @@ Random Forest Regressor was selected as the final model because it provide the b
    git clone https://github.com/Hussnain-10/Insurance.git
    cd-Insurance
 2. Install the dependencies
-   pip install -r requirement.txt
+pip install -r requirement.txt
 3. Train the model
-   cd scripts
-   phython step_2_train.py
+cd scripts
+phython step_2_train.py
 4. Run a prediction on a new customer 
-   phython step_3_predict.py
+phython step_3_predict.py
